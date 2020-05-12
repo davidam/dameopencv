@@ -51,6 +51,7 @@ setup(name='dameopencv',
       license='GPLv3',
       packages=['dameopencv', 'dameopencv.tests'],
       package_dir={'dameopencv': 'dameopencv', 'dameopencv.tests': 'dameopencv/tests'},
+      data_files=[('dameopencv', ['README.md'])],      
       install_requires=[
           'markdown',
           'numpy',
